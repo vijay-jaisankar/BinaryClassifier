@@ -13,9 +13,9 @@ Example of Classifer:
 Let a dairy company making milk and curd have two features it uses to distinguish its products:
 Fat content(>=50% means HIGH fat and <50% means LOW fat)
 Type of product(milk is M and curd is C)
-So, an object of type (67,C) is CURD of HIGH fat content- it's label.
+So, an object of type (67,C) is CURD of HIGH fat content- its label.
 
-We then feed the computer 'test-cases' i.e sample products it can learn from. These include edge cases like (50,M) or (50,C).
+We then feed the computer 'test-cases' i.e sample mapped products it can learn from. These include edge cases like (50,M) or (50,C).
 The computer then 'learns' i.e deduces a relationship to distinguish between the objects. Note that distinguishability is key here, we don't want to have controversial/vague features.
 
 The computer deduces a relationship of sorts it uses to deduce the 'label' for an object supplied.
